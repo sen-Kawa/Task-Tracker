@@ -24,3 +24,10 @@ console.log(person);
 let selection = 'name';
 person[selection] = 'pedro';
 console.log(person);
+
+//ARRAYS
+let selectedColours = ['red', 'blue'];
+console.log(selectedColours);
+console.log(selectedColours[0]);
+selectedColours[2] = 'green';
+console.log(selectedColours);
