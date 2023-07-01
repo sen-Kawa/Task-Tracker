@@ -43,7 +43,7 @@ console.log(selectedColours.length);
 
 //FUNCTIONS
 
-function greet(){
-	console.log('Hello world');
+function greet(name){
+	console.log('Hello ' + name);
 }
-greet();
+greet('relu');
