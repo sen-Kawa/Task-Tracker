@@ -29,5 +29,21 @@ console.log(person);
 let selectedColours = ['red', 'blue'];
 console.log(selectedColours);
 console.log(selectedColours[0]);
+
+	//expanding array 
 selectedColours[2] = 'green';
 console.log(selectedColours);
+
+	//expanding array with another type
+selectedColours[3] = 1 ;
+console.log(selectedColours);
+
+	//using length property
+console.log(selectedColours.length);
+
+//FUNCTIONS
+
+function greet(){
+	console.log('Hello world');
+}
+greet();
