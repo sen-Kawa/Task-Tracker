@@ -1,7 +1,10 @@
 console.log('Ey!');
 
+//VARIABLES
 let colour = 'blue';
 console.log(colour);
+
+//OBJECTS
 
 let person = {
 	name: 'susan',
@@ -9,14 +12,15 @@ let person = {
 };
 console.log(person);
 
-//dot notation
+	//dot notation
 person.name = 'notsusan';
 console.log(person);
 
-//bracket notation
+	//bracket notation
 person['name'] = 'mary';
 console.log(person);
-//i fu dont know the name of the target property
+
+	//dynamic access to target property
 let selection = 'name';
 person[selection] = 'pedro';
 console.log(person);
