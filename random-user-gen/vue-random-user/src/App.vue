@@ -9,10 +9,37 @@
 import Header from './components/Header'
 
 export default {
-  name: 'App',
-  components: {
-	Header,
-  },
+	name: 'App',
+	components: {
+		Header,
+	},
+	data() {
+		return {
+			tasks: []
+		}
+	},
+	created() {
+		this.tasks = [
+			{
+				id: 1,
+				text: 'Doctor',
+				day: 'March 1st at 2:30pm',
+				reminder: true,
+			},
+			{
+				id: 2,
+				text: 'Movies',
+				day: 'March 5th at 6:30pm',
+				reminder: true,
+			},
+			{
+				id: 3,
+				text: 'Trip',
+				day: 'May 20th at 2:00am',
+				reminder: false,
+			},
+		]
+	},
 }
 </script>
 
