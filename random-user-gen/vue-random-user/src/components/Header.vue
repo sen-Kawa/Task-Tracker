@@ -7,7 +7,9 @@
 <script>
 	export default {
 		name: 'HeaderApp',
-		props: ['title'],
+		props: {
+			title: String,
+		},
 	}
 </script>
 
