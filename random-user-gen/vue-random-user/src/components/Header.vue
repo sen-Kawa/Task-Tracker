@@ -8,7 +8,10 @@
 	export default {
 		name: 'HeaderApp',
 		props: {
-			title: String,
+			title: {
+				type: String,
+				default: 'Hello',
+			},
 		},
 	}
 </script>
