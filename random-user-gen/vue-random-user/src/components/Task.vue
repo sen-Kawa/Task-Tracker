@@ -1,12 +1,12 @@
 <template>
-
+	<h3>{{ task.text }}</h3>
 </template>
 
 <script>
 	export default {
-		name: 'Task',
+		name: 'TaskApp',
 		props: {
-			tasks: Object,
+			task: Object,
 		}
 	}
 </script>
