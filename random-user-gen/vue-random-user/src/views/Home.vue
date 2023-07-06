@@ -16,6 +16,10 @@ import AddTask from '../components/AddTask'
 
 export default {
 	name: 'HomeApp',
+	props: {
+		showAddTask: Boolean,
+	},
+
 	components: {
 		Tasks,
 		AddTask,
