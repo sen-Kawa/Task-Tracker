@@ -4,7 +4,7 @@
       "id": "2",
       "text": "Movies",
       "day": "May 1st at 2:30pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": "3",
