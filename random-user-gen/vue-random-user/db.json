@@ -1,12 +1,6 @@
 {
   "tasks": [
     {
-      "id": "1",
-      "text": "Swimming",
-      "day": "March 1st at 2:30pm",
-      "reminder": true
-    },
-    {
       "id": "2",
       "text": "Movies",
       "day": "May 1st at 2:30pm",
@@ -17,12 +11,6 @@
       "text": "Trip",
       "day": "March 5st at 4:30pm",
       "reminder": false
-    },
-    {
-      "id": 71377,
-      "text": "sdf",
-      "day": "sdf",
-      "reminder": true
     }
   ]
 }
