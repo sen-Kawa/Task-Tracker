@@ -1,4 +1,4 @@
-# vue-random-user
+# vue-task-tracker
 
 ## Project setup
 ```
